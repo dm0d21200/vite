@@ -1,0 +1,153 @@
+#root {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.App {
+  min-height: 100vh;
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile browser chrome handling */
+@media (display-mode: fullscreen) {
+  .App {
+    padding-top: env(safe-area-inset-top);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
+
+/* iOS Safari status bar handling */
+@supports (-webkit-appearance: none) {
+  .App {
+    padding-top: max(20px, env(safe-area-inset-top));
+  }
+
+  @media (orientation: landscape) {
+    .App {
+      padding-top: env(safe-area-inset-top);
+    }
+  }
+}
+
+/* Android Chrome handling */
+@media (display-mode: standalone) {
+  .App {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+.app-header {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  padding: 20px;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  flex-shrink: 0;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  margin: 0 0 8px 0;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.app-header p {
+  font-size: 1rem;
+  color: #666;
+  margin: 0;
+}
+
+main {
+  background: rgba(255, 255, 255, 0.95);
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+}
+
+/* Desktop styles (default) */
+@media (min-width: 1024px) {
+  .app-header {
+    padding: 30px 40px;
+  }
+
+  .app-header h1 {
+    font-size: 2.5rem;
+    margin: 0 0 10px 0;
+  }
+
+  .app-header p {
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet styles */
+@media (max-width: 1023px) and (min-width: 769px) {
+  .app-header {
+    padding: 25px 30px;
+  }
+
+  .app-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .app-header p {
+    font-size: 1.1rem;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .app-header {
+    padding: 15px 20px;
+  }
+
+  .app-header h1 {
+    font-size: 1.8rem;
+    margin: 0 0 5px 0;
+  }
+
+  .app-header p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Small mobile styles */
+@media (max-width: 480px) {
+  .app-header {
+    padding: 12px 15px;
+  }
+
+  .app-header h1 {
+    font-size: 1.6rem;
+  }
+
+  .app-header p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Landscape mobile optimization */
+@media (max-height: 500px) and (orientation: landscape) {
+  .app-header {
+    padding: 8px 20px;
+  }
+
+  .app-header h1 {
+    font-size: 1.4rem;
+    margin: 0 0 2px 0;
+  }
+
+  .app-header p {
+    font-size: 0.85rem;
+  }
+}

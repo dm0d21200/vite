@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#F5DEB3"/>
+  
+  <!-- Animal emoji -->
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="80" text-anchor="middle" fill="#333">🐅</text>
+  
+  <!-- Animal name -->
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#333">TIGER</text>
+  
+  <!-- Decorative border -->
+  
+  <!-- Small decorative paw prints -->
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background with soft color -->
+  <rect width="400" height="300" fill="#FFD1DC"/>
+  
+  <!-- Custom background elements -->
+  
+      <!-- Mom-specific background -->
+      <defs>
+        <radialGradient id="momGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+          <stop offset="0%" style="stop-color:#FF69B4;stop-opacity:0.1" />
+          <stop offset="100%" style="stop-color:#FFD1DC;stop-opacity:0" />
+        </radialGradient>
+      </defs>
+      <circle cx="200" cy="150" r="120" fill="url(#momGlow)" />
+      <path d="M100,70 C140,50 180,40 220,40 C260,40 300,50 340,70" stroke="#FF69B440" stroke-width="5" fill="none" />
+      <text x="140" y="50" font-size="20" fill="#FF69B440">❤️</text>
+      <text x="260" y="50" font-size="20" fill="#FF69B440">❤️</text>
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Light highlight circle for the emoji -->
+    <circle cx="200" cy="120" r="70" fill="#ffffff80" />
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">👩</text>
+  </g>
+  
+  <!-- Person name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">MOM</text>
+  
+  <!-- Decorative border with family theme -->
+  
+</svg>

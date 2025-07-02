@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#FFF8E1"/>
+  
+  <!-- Custom action background -->
+  
+        <rect x="120" y="190" width="160" height="20" rx="5" ry="5" fill="#8B451330" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Sit position illustration -->
+        <g>
+          <path d="M170,140 L230,140" stroke="#33333340" stroke-width="3" />
+          <path d="M200,100 L200,140" stroke="#33333340" stroke-width="3" />
+          <circle cx="200" cy="120" r="70" fill="#ffffff60" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">🪑</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">SIT</text>
+  
+  <!-- Decorative border -->
+  
+</svg>

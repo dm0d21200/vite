@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#EFEBE9"/>
+  
+  <!-- Custom action background -->
+  
+        <circle cx="300" cy="120" r="20" fill="#FFD70030" stroke="#33333320" stroke-width="1" />
+        <circle cx="100" cy="120" r="20" fill="#FFD70030" stroke="#33333320" stroke-width="1" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Look direction illustration -->
+        <g>
+          <path d="M130,120 L180,120 M220,120 L270,120" stroke="#33333340" stroke-width="2" stroke-dasharray="5,3" />
+          <circle cx="200" cy="120" r="70" fill="#ffffff60" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">👀</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">LOOK</text>
+  
+  <!-- Decorative border -->
+  
+</svg>

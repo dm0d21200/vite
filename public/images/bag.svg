@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with subtle pattern -->
+  <rect width="400" height="300" fill="#FFF2E6"/>
+  <pattern id="objectPattern" patternUnits="userSpaceOnUse" width="30" height="30" patternTransform="rotate(45)">
+    <rect width="30" height="30" fill="#FFF2E6"/>
+    <circle cx="15" cy="15" r="1" fill="#00000020"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#objectPattern)"/>
+  
+  <!-- Object emoji -->
+  <g>
+    <!-- Light circle background for emoji -->
+    <circle cx="200" cy="110" r="75" fill="#ffffff80" stroke="#33333330" stroke-width="2"/>
+    <text x="200" y="130" font-family="Arial, sans-serif" font-size="80" text-anchor="middle" fill="#333333">👜</text>
+  </g>
+  
+  <!-- Object name -->
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333333">BAG</text>
+  
+  <!-- Decorative shadow under the name -->
+  <rect x="80" y="235" width="240" height="4" rx="2" fill="#33333330"/>
+  
+  <!-- Decorative border -->
+  
+</svg>

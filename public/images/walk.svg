@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#E3F2FD"/>
+  
+  <!-- Custom action background -->
+  
+        <path d="M0,250 C50,248 100,252 150,250 C200,248 250,252 300,250 C350,248 400,252 400,250 L400,300 L0,300 Z" fill="#90EE9030" />
+        <line x1="0" y1="250" x2="400" y2="250" stroke="#33333330" stroke-width="2" stroke-dasharray="10,5" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Gentle motion lines for walking -->
+        <g>
+          <path d="M150,120 L170,120 M140,100 L160,100 M160,140 L180,140" stroke="#33333340" stroke-width="3" stroke-linecap="round" />
+          <path d="M230,120 L250,120 M240,100 L260,100 M220,140 L240,140" stroke="#33333340" stroke-width="3" stroke-linecap="round" />
+          <circle cx="200" cy="120" r="70" fill="#ffffff60" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">🚶</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">WALK</text>
+  
+  <!-- Decorative border -->
+  
+</svg>

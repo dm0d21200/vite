@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="colorGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#800080;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a64ca6;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Pattern for visual interest -->
+    <pattern id="dotPattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="3" fill="#993399" />
+    </pattern>
+  </defs>
+  
+  <!-- Main color area with gradient -->
+  <rect width="400" height="300" fill="url(#colorGradient)"/>
+  
+  <!-- Overlay pattern for texture -->
+  <rect width="400" height="300" fill="url(#dotPattern)" fill-opacity="0.3"/>
+  
+  <!-- Color emoji -->
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="80" text-anchor="middle" fill="#333333">🟣</text>
+  
+  <!-- Color name -->
+  <text x="200" y="200" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#333333">PURPLE</text>
+  
+  <!-- Decorative border -->
+  
+</svg>
