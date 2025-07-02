@@ -170,43 +170,43 @@ const getImagePath = (word: string): string => {
   ];
 
   if (animalWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (bodyPartWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (clothingWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (colorWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (numberWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (objectWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (natureWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (familyPeopleWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   if (actionWords.includes(wordLower)) {
-    return `/images/${wordLower}.svg`;
+    return `./images/${wordLower}.svg`;
   }
 
   // Default: use word as filename with .svg extension
-  return `/images/${wordLower}.svg`;
+  return `./images/${wordLower}.svg`;
 };
 
 // Utility function to shuffle array
