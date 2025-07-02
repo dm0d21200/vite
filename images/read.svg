@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#FFFDE7"/>
+  
+  <!-- Custom action background -->
+  
+        <rect x="120" y="190" width="160" height="20" rx="3" ry="3" fill="#A5290220" />
+        <rect x="140" y="170" width="120" height="20" rx="3" ry="3" fill="#A5290220" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Reading focus circle and markers -->
+        <g>
+          <path d="M170,100 L230,100 M170,110 L220,110 M170,120 L210,120" stroke="#33333340" stroke-width="2" />
+          <circle cx="200" cy="120" r="70" fill="#ffffff60" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">📚</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">READ</text>
+  
+  <!-- Decorative border -->
+  
+</svg>

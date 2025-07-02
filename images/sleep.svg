@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#E8EAF6"/>
+  
+  <!-- Custom action background -->
+  
+        <path d="M140,220 C180,200 220,200 260,220" stroke="#33333320" stroke-width="3" fill="none" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Sleep zzz animation -->
+        <g>
+          <text x="135" y="80" font-size="20" fill="#33333360">💤</text>
+          <text x="155" y="60" font-size="18" fill="#33333350">💤</text>
+          <text x="175" y="40" font-size="16" fill="#33333340">💤</text>
+          <circle cx="200" cy="120" r="70" fill="#ffffff60" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">😴</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">SLEEP</text>
+  
+  <!-- Decorative border -->
+  
+</svg>

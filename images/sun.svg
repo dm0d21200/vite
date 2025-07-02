@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#FFD700"/>
+  
+  <!-- Custom nature background elements -->
+  
+      <!-- Sun rays in background -->
+      <defs>
+        <radialGradient id="sunGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+          <stop offset="0%" style="stop-color:#FFFF99;stop-opacity:0.8" />
+          <stop offset="100%" style="stop-color:#FFD700;stop-opacity:0.1" />
+        </radialGradient>
+      </defs>
+      <circle cx="200" cy="150" r="180" fill="url(#sunGradient)" />
+      <path d="M200,20 L200,40 M200,260 L200,280 M20,150 L40,150 M360,150 L380,150 M80,80 L95,95 M305,95 L320,80 M80,220 L95,205 M305,205 L320,220" stroke="#FFCC0090" stroke-width="4" />
+  
+  <!-- Main nature emoji -->
+  <g>
+    <!-- Light highlight circle for the emoji -->
+    <circle cx="200" cy="120" r="70" fill="#ffffff80" />
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">☀️</text>
+  </g>
+  
+  <!-- Nature item name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">SUN</text>
+  
+  <!-- Decorative border with nature theme -->
+  
+</svg>

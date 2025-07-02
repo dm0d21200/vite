@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#E6E6FA"/>
+  
+  <!-- Custom nature background elements -->
+  
+      <!-- Stars in night sky -->
+      <g>
+        <circle cx="272.7354755440567" cy="94.24857435421758" r="1.800991379361011" fill="#FFFFFF" fill-opacity="0.701036635784463" /><circle cx="92.58361609931009" cy="124.3634322721851" r="1.0390701983388173" fill="#FFFFFF" fill-opacity="0.5895716210745628" /><circle cx="311.8752985924836" cy="152.3569757841908" r="1.6335565184236351" fill="#FFFFFF" fill-opacity="0.38208658765973785" /><circle cx="47.306583301063654" cy="37.695625296687474" r="0.9660773476839648" fill="#FFFFFF" fill-opacity="0.7179547863019283" /><circle cx="107.11387972757262" cy="194.08858561763657" r="1.3070476190299265" fill="#FFFFFF" fill-opacity="0.7960834276549134" /><circle cx="105.03941615699262" cy="214.48516981926673" r="1.9936190323275476" fill="#FFFFFF" fill-opacity="0.752390234555095" /><circle cx="175.92794484117772" cy="88.20919491248628" r="1.5951183148898336" fill="#FFFFFF" fill-opacity="0.45131829605711016" /><circle cx="370.9167053903956" cy="290.7306198097127" r="0.783660258943175" fill="#FFFFFF" fill-opacity="0.6368520969614508" /><circle cx="72.42291910162564" cy="125.09218126978973" r="0.8101700134810936" fill="#FFFFFF" fill-opacity="0.7435946190058055" /><circle cx="147.21315089141535" cy="271.3844187658943" r="0.5126413820861467" fill="#FFFFFF" fill-opacity="0.4201286223345856" /><circle cx="229.84126446544414" cy="62.53436595696663" r="0.6924537764512553" fill="#FFFFFF" fill-opacity="0.7913566070823846" /><circle cx="394.8340013583647" cy="37.051824210677" r="1.6344029549794818" fill="#FFFFFF" fill-opacity="0.4527603008309924" /><circle cx="293.0460550128566" cy="194.33284929484904" r="0.7268659274119684" fill="#FFFFFF" fill-opacity="0.5632322920593686" /><circle cx="261.7159856587546" cy="19.212455562758414" r="1.6651890476383395" fill="#FFFFFF" fill-opacity="0.3566102141188355" /><circle cx="30.99163955932891" cy="94.78491690882824" r="0.9099366712088255" fill="#FFFFFF" fill-opacity="0.5037219100987316" /><circle cx="357.59862836327903" cy="262.5225099624354" r="1.874282884173092" fill="#FFFFFF" fill-opacity="0.7780265088632856" /><circle cx="239.78178492956238" cy="70.66012359226876" r="1.206420159218993" fill="#FFFFFF" fill-opacity="0.5701140526990246" /><circle cx="44.28071651281789" cy="137.23210883331208" r="1.731795143890805" fill="#FFFFFF" fill-opacity="0.3263765851580766" /><circle cx="319.07692319743956" cy="193.48634695896146" r="1.674878650584479" fill="#FFFFFF" fill-opacity="0.6995866554452554" /><circle cx="163.88222816736084" cy="15.71683862013964" r="0.7900977721702336" fill="#FFFFFF" fill-opacity="0.31235361274381557" /><circle cx="109.98522968895892" cy="91.75383054844666" r="0.8677235629275648" fill="#FFFFFF" fill-opacity="0.45300776038091706" /><circle cx="236.13042375854297" cy="148.80046802920748" r="1.9000880767693755" fill="#FFFFFF" fill-opacity="0.4439756065923305" /><circle cx="377.28640254584496" cy="285.62326293616104" r="1.5438541813657949" fill="#FFFFFF" fill-opacity="0.5484673407550751" /><circle cx="23.73322288160025" cy="48.216403061654376" r="1.6920278538448263" fill="#FFFFFF" fill-opacity="0.45238277155740275" /><circle cx="112.76415835483729" cy="65.16144970058869" r="0.8695605252676941" fill="#FFFFFF" fill-opacity="0.4952321779659502" /><circle cx="97.42075852001611" cy="176.26246676362177" r="1.785557648637218" fill="#FFFFFF" fill-opacity="0.379987072847839" /><circle cx="223.01042027006895" cy="292.85457278526974" r="1.280226519186764" fill="#FFFFFF" fill-opacity="0.4660736896521417" /><circle cx="302.83146237525665" cy="280.2565628568675" r="1.2739804985432897" fill="#FFFFFF" fill-opacity="0.5788600861020208" /><circle cx="87.15106194711004" cy="255.81430391792134" r="1.5650843402578507" fill="#FFFFFF" fill-opacity="0.5193927242999921" /><circle cx="356.75411853079055" cy="43.17110862768446" r="0.8623528461847403" fill="#FFFFFF" fill-opacity="0.6192286329434189" />
+      </g>
+      <circle cx="280" cy="80" r="3" fill="#FFFFFF" />
+  
+  <!-- Main nature emoji -->
+  <g>
+    <!-- Light highlight circle for the emoji -->
+    <circle cx="200" cy="120" r="70" fill="#ffffff80" />
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">🌙</text>
+  </g>
+  
+  <!-- Nature item name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">MOON</text>
+  
+  <!-- Decorative border with nature theme -->
+  
+</svg>

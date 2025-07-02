@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with a subtle pattern for fabric texture -->
+  <rect width="400" height="300" fill="#FFA07A"/>
+  <pattern id="fabricPattern" patternUnits="userSpaceOnUse" width="20" height="20" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="20" stroke="#00000015" stroke-width="1"/>
+  </pattern>
+  <rect width="400" height="300" fill="url(#fabricPattern)"/>
+  
+  <!-- Clothing emoji -->
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="90" text-anchor="middle" fill="#333333">🧦</text>
+  
+  <!-- Clothing name -->
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#333333">SOCKS</text>
+  
+  <!-- Decorative border that looks like stitching -->
+</svg>

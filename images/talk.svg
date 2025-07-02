@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#E1F5FE"/>
+  
+  <!-- Custom action background -->
+  
+        <path d="M80,180 Q60,150 80,120 Q100,90 150,90" stroke="#33333320" stroke-width="1" fill="none" />
+        <path d="M320,180 Q340,150 320,120 Q300,90 250,90" stroke="#33333320" stroke-width="1" fill="none" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Talk speech bubbles -->
+        <g>
+          <path d="M140,80 Q120,100 140,120 Q160,100 140,80 Z" fill="#ffffff80" stroke="#33333330" stroke-width="1" />
+          <path d="M260,80 Q240,100 260,120 Q280,100 260,80 Z" fill="#ffffff80" stroke="#33333330" stroke-width="1" />
+          <circle cx="200" cy="120" r="70" fill="#ffffff40" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">🗣️</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">TALK</text>
+  
+  <!-- Decorative border -->
+  
+</svg>

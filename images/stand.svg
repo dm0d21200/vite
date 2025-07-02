@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base background -->
+  <rect width="400" height="300" fill="#E0F2F1"/>
+  
+  <!-- Custom action background -->
+  
+        <line x1="0" y1="250" x2="400" y2="250" stroke="#33333330" stroke-width="3" />
+      
+  
+  <!-- Main emoji -->
+  <g>
+    <!-- Motion lines or effect highlight circle -->
+    
+        <!-- Stand straight illustration -->
+        <g>
+          <path d="M200,70 L200,170" stroke="#33333340" stroke-width="3" />
+          <path d="M180,90 L220,90" stroke="#33333340" stroke-width="2" />
+          <circle cx="200" cy="120" r="70" fill="#ffffff60" />
+        </g>
+      
+    <text x="200" y="140" font-family="Arial, sans-serif" font-size="85" text-anchor="middle">🧍</text>
+  </g>
+  
+  <!-- Action name -->
+  <text x="200" y="230" font-family="Arial, sans-serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#333333">STAND</text>
+  
+  <!-- Decorative border -->
+  
+</svg>
